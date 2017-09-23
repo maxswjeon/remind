@@ -1,0 +1,281 @@
+@import url(//fonts.googleapis.com/earlyaccess/nanumgothic.css);
+@import url(//fonts.googleapis.com/css?family=Stalinist+One);
+html {
+ font-family: 'Nanum Gothic', sans-serif;
+}
+.Stalinist.One{
+  font-family: 'Stalinist One', cursive;
+}
+body {
+  background: #F3F3F3;
+  height: 100%;
+  margin-bottom: 1rem;
+  margin: 0;
+}
+nav {
+  margin-top: 5rem;
+  padding-bottom: 1rem;
+  opacity: 0;
+}
+article {
+  opacity: 0;
+  margin-top: 5rem;
+}
+.onload {
+  animation-name: focus_in;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+.outload{
+  filter: blur(0);
+  opacity: 1;
+  margin: 0 auto;
+  animation-name: focus_out;
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards;
+}
+@keyframes focus_in {
+  0% {
+    filter: blur(5px);
+    color: #000000;
+  }
+  100% {
+    filter: blur(0);
+    opacity: 1;
+    margin: 0 auto;
+    color: normal;
+  }
+}
+@keyframes focus_out {
+  0% {
+    filter: blur(0);
+  }
+  100% {
+    filter: blur(5px);
+  }
+}
+.no_supprot {
+  width: 0;
+  height: 0;
+  font-size: 0px;
+}
+@media only screen and (max-width: 370px) {
+  h1.title {
+    font-size: 1.5rem !important;
+  }
+  h1 div.second_tile {
+    font-size: 0.7rem !important;
+  }
+  .ui.container {
+    width: 95% !important;
+    margin: 0 auto !important;
+  }
+}
+@media only screen and (min-width: 370px) and (max-width: 766px) {
+  h1.title {
+    font-size: 2.4rem !important;
+  }
+  h1 div.second_tile {
+    font-size: 1.2rem !important;
+  }
+  .ui.container {
+    width: 95% !important;
+    margin: 0 auto !important;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  nav {
+    width: 95% !important;
+    margin: 0.7rem auto !important;
+  }
+  .ui.container {
+    width: 95% !important;
+    margin: 0 auto !important;
+  }
+  div.container h2 {
+    font-size: 1.3rem !important;
+  }
+  div.container {
+    font-size: 66% !important;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  nav {
+    width: 821.625px !important;
+    margin: 0.7rem auto;
+  }
+  .ui.container {
+    width: 780px;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  div.container h2 {
+    font-size: 1.5rem !important;
+  }
+  div.container {
+    font-size: 75% !important;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  nav {
+    width: 1000px !important;
+    margin: 0.7rem auto;
+  }
+  .ui.container {
+    width: 970px;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+}
+.center {text-align: center !important;}
+.left {text-align: left !important;}
+.right {text-align: right !important;}
+.hide {display: none !important;}
+.vis {display: inherit !important;}
+h1.title {
+  margin: 0 0 1.24rem 0;
+  padding: 0.6rem 0 0.6rem 0;
+  font-family: 'Stalinist One', cursive;
+  font-size: 3rem;
+  text-align: center;
+  color: white;
+  background: #353535;
+  line-height: 1;
+  box-shadow: 0 0 7rem 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+h1 div.second_tile {
+  font-size: 1.5rem;
+  text-shadow: none;
+}
+div.menu {
+  display: inline-flex;
+  box-shadow: 0 0.05rem 0.05rem 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: left;
+  width: 95%;
+  animation-name: setMargin;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  background: #FFFFFF;
+  border-radius: 0.5rem;
+}
+@keyframes setMargin {
+  0% {
+    margin: 3rem auto;
+  }
+  100% {
+    margin: 0.4rem auto;
+  }
+}
+div.menu:active {
+  box-shadow: none;
+}
+div.menu:active img {
+  box-shadow: none;
+}
+img.menu {
+  border-radius: 0.5rem;
+  display: inline-block;
+  box-shadow: 0 0.05rem 0 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width: 30%;
+  height: 30%;
+}
+div.menu div.text {
+  margin-left: 1rem;
+  margin-right: 1rem;
+  font-size: 0.9rem;
+  text-align: left;
+  display: inline-block;
+}
+div.menu div.text b.title{
+  margin: 0.3rem auto;
+  font-size: 1.55rem !important;
+  display: block;
+}
+.text {
+  word-wrap: break-word;
+  word-break: break-all;
+}
+.button {
+  box-shadow: 0 0.25rem 0.25rem 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background: #1266FF;
+  width: 12rem;
+  margin: 1rem auto;
+  margin-top: 0;
+  padding: 0.3rem 1rem 0.3rem 1rem;
+  color: white;
+  border-radius: 0.7rem;
+}
+.button:hover {
+  box-shadow: 0 0.125rem 0.125rem 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background: #0042ED;
+}
+div.text_post {
+  box-shadow: 0 0.05rem 0.05rem 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 0.5rem;
+  padding: 0.9rem;
+  padding-bottom: 2rem;
+  margin: 1rem 0 1rem 0;
+}
+div.text_post div.text_post {
+  box-shadow: 0 0.01rem 0.01rem 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important;
+  font-size: 0.78rem;
+}
+#loading {
+  height: 0;
+  font-size: 0;
+  text-align: center;
+  color: black;
+}
+#back {
+  background: #888888;
+  opacity: 0.9;
+  position: fixed;
+  bottom: 1rem;
+  left: 1rem;
+  padding: 1rem;
+  border-radius: 9rem;
+}
+.now_loading {
+  animation-name: now_loading;
+  animation-duration: 1.5s;
+  animation-fill-mode: forwards;
+}
+@keyframes now_loading {
+  0% {
+    width: 0;
+  }
+  13.33% {
+    background: #1DDB16;
+    height: 0.7rem;
+  }
+  40% {
+    background: #1DDB16;
+    width: 100%;
+    height: 0.7rem;
+  }
+}
+.alert {
+  border-radius: 0.5rem;
+  background: white;
+  width: 95%;
+  margin: 0.4rem auto !important;
+  box-shadow: 0 0.05rem 0.05rem 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: left;
+  padding: 0.5rem 0 0.5rem 0;
+}
+iframe {
+  height: 200px !important;
+}
+footer {
+  font-size: 2% !important;
+  color: #3F3F3F;
+  border-top: 2px solid #3F3F3F;
+  margin-top: 0.5rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+  padding-top: 0.5rem;
+  display: inherit;
+}
+a {color: skyblue; text-decoration: underline;}
+a:hover {color: inherit;;}
