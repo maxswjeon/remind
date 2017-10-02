@@ -90,17 +90,19 @@
 				</h1>
 				<br>
 				<h4 class="section_details">
-					저는 어릴 적 즐겼던 플래시 게임을 떠올리며 웹 게임을 만들기 시작했습니다.
+					저희는 어릴 적 즐겼던 플래시 게임을 떠올리며 웹 게임을 만들기 시작했습니다.
 					웹에서의 게임 개발은 방해물이 아닌 도전과제임을 기억해야 합니다.
 					시작은 간단한 퍼즐게임에 불과하지만, 계속해서 발전해나가는 모습을 보일 것입니다.
-					<img src="/assets/img/index/dir_develop.png" alt="아래로" width="20%" style="display:block;margin:2.5rem auto;margin-bottom:0">
+					<img src="/assets/img/index/dir_develop.png" alt="아래로" width="20%" style="display:block;margin:2.5rem auto;margin-bottom:0" onclick="alert('위, 아래로 스크롤해보세요!');">
 				</h4>
 			</div>
 			<div class="section">
 				<h1 class="section_content subtitle">제작된 게임들을 둘러보세요</h1>
 				<br>
 				<h4 class="section_details">
-					Project REMIND의 팀원들이 만들어낸 멋진 게임들을 구경해보세요
+					Project REMIND의 팀원들이 만들어낸 멋진 게임들을 구경해보세요.
+					웹 게임은 별도의 설치없이 바로 즐길 수 있다는 큰 장점을 지니고 있습니다.
+					아, 셧다운제 적용도 안된답니다. 다행이네요.
 				</h4>
 				<br>
 				<div onclick='link("/board/games", 1)' class="button">자세히 보기</div>
@@ -121,7 +123,7 @@
 				<br>
 				<h4 class="section_details">
 					아이디어가 있는 사람, 코딩 실력이 있는 사람, 디자인 감각이 있는 사람들이 모여 팀을 꾸려 보세요.
-					간단한 퍼즐게임이라도 협업으로 친구들과, 아니면 해커톤같은 게임 개발, 시작해 보는 건 어떨까요?
+					간단한 퍼즐게임이라도 협업을 통해 친구들과, 아니면 해커톤과 같은 게임 개발. 시작해 보는 건 어떨까요?
 				</h4>
 				<br>
 				<div onclick='link("/board/project", 3)' class="button">자세히 보기</div>

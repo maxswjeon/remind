@@ -1,16 +1,28 @@
+nav, article {
+	text-align: center;
+}
 #contents {
 	display: block;
-	width: 85%;
-	margin: 4rem auto;
+	margin-bottom: 0 !important;
 	position: relative;
+	word-wrap: break-word;
+	word-break: break-all;
 	animation-name: focus-in;
 	animation-duration: 1s;
 	animation-fill-mode: forwards;
+}
+@media screen and (max-width: 500px) {
+	/*mobile*/
+	#contents {
+		width: 85%;
+		margin: 4rem auto;
+	}
 }
 @media screen and (min-width: 501px) {
 	/*Desktop*/
 	#contents {
 		width: 550px;
+		margin: 4rem auto;
 		/*수정예정입니다.*/
 	}
 }
@@ -56,6 +68,15 @@ body.focus-out {
 	padding: 0.7rem;
 	border-radius: 10px;
 }
-.center {
-	text-align: center;
+.post {
+	max-width: 95%;
+	background: white;
+	font-size: 0.75rem;
+	margin: 1rem auto;
+	border-radius: 7.5px;
+	padding: 0.5rem;
+	box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.StalinistOne {
+	font-family: 'StalinistOne', 'Stalinist One', cursive !important;
 }
