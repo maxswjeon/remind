@@ -36,6 +36,19 @@
 		<link rel="stylesheet" type="text/css" media="screen and (min-width: 501px)" href="/assets/css/index/desktop.css"/>
 
 		<style>
+			#fullpage {
+				animation-name: focus-in;
+				animation-duration: 1.4s;
+				animation-fill-mode: forwards;
+			}
+			@keyframes focus-in {
+				0% {
+					margin-top: 200vh;
+				}
+				100% {
+					margin: normal;
+				}
+			}
 			#fullpage.focus-out {
 				animation-name: focus-out;
 				animation-duration: 0.4s;
