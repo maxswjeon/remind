@@ -49,23 +49,9 @@
 					filter: blur(0);
 				}
 				100% {
-					right: 120vw;
+					right: 15vw;
 					opacity: 0;
 					filter: blur(2px);
-				}
-			}
-			@media screen and (min-width: 501px) {
-				@keyframes focus-out {
-					0% {
-						right: 0%;
-						opacity: 1;
-						filter: blur(0);
-					}
-					100% {
-						right: 15vw;
-						opacity: 0;
-						filter: blur(2px);
-					}
 				}
 			}
 		</style>

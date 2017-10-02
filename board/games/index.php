@@ -52,26 +52,12 @@
 				0% {
 					opacity: 0;
 					filter: blur(3px);
-					left: 80vh;
+					left: 15vh;
 				}
 				100% {
 					opacity: 1;
 					filter: blur(0);
 					left: 0;
-				}
-			}
-			@media screen and (min-width: 501px) {
-				@keyframes focus-in {
-					0% {
-						opacity: 0;
-						filter: blur(3px);
-						left: 15vh;
-					}
-					100% {
-						opacity: 1;
-						filter: blur(0);
-						left: 0;
-					}
 				}
 			}
 		</style>
