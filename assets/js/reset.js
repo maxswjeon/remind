@@ -3,9 +3,11 @@ $("a").click(function(event) {
 	window.location = $(this).attr("href");
 });
 
-$('#back-button').click(function(){
+$('.gotoMain').click(function(){
 	$('#contents').addClass('focus-out');
+	$('#back-button').addClass('focus-out');
+	$('body').addClass('focus-out');
 	setTimeout(function() {
 		location.href='/';
-	}, 550);
-})
+	}, 350);
+});

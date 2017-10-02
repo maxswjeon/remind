@@ -1,11 +1,18 @@
 #contents {
 	display: block;
-	width: 90%;
+	width: 85%;
 	margin: 4rem auto;
 	position: relative;
 	animation-name: focus-in;
 	animation-duration: 1s;
 	animation-fill-mode: forwards;
+}
+@media screen and (min-width: 501px) {
+	/*Desktop*/
+	#contents {
+		width: 550px;
+		/*수정예정입니다.*/
+	}
 }
 @keyframes focus-in {
 	0% {
@@ -20,13 +27,23 @@
 	}
 }
 .focus-out {
-	animation-name: focus-out;
-	animation-duration: 0.5s;
-	animation-fill-mode: forwards;
+	animation-name: focus-out !important;
+	animation-duration: 0.2s !important;
+	animation-fill-mode: forwards !important;
 }
 @keyframes focus-out {
 	100% {
+		opacity: 0;
+		filter: blur(3px);
+	}
+}
+body.focus-out {
+	animation-name: body-focus-out !important;
+	animation-duration: 0.2s !important;
+	animation-fill-mode: forwards !important;
+}
+@keyframes body-focus-out {
+	100% {
 		background: white;
-		color: white;
 	}
 }

@@ -15,30 +15,30 @@
 	border: 1px solid #DDD;
 	padding:30px;
 	border-radius: 10px;
-}
-.footer{
-	background-color: rgba(255,255,255,0.7);
-	padding: 15px;
-	position: absolute;
-	bottom:0px;
-	width: 100%;
-	box-sizing: border-box;
-}
-.copyright{
-	font-size: 1em;
+
 }
 #login_title{
 	margin: 0 0 10px 0;
+	font-family: 'NanumGothic', 'Nanum Gothic' !important;;
+	font-weight: 800;
 }
 .input{
 	width: 100%;
-	padding: 0;
+	padding: 10px;
+	border: 1px solid #DCDCDC;
 }
 .submit{
 	width: 100%;
-	border: 2px solid #03A9F4;
 	background-color:#03A9F4;
 	color:#FFFFFF;
 	font-size: 1em;
-	margin: 5px 0 0 0;
+	padding:10px;
+	box-sizing: border-box;
+	border-radius: 0px;
+}
+.link_login{
+	padding: 10px 5px 0px 5px;
+	display: inline-block;
+	font-family: 'NanumGothic', 'Nanum Gothic' !important;;
+	font-weight:400;
 }

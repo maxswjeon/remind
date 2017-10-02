@@ -70,6 +70,6 @@
 				</div>
 			</article>
 		</div>
-		<div id=back-button>< 뒤로가기</div>
+		<div id=back-button class="gotoMain">< 뒤로가기</div>
 	</body>
 </html>
