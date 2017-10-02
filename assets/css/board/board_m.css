@@ -1,0 +1,32 @@
+#contents {
+	display: block;
+	width: 90%;
+	margin: 4rem auto;
+	position: relative;
+	animation-name: focus-in;
+	animation-duration: 1s;
+	animation-fill-mode: forwards;
+}
+@keyframes focus-in {
+	0% {
+		opacity: 0;
+		filter: blur(3px);
+		left: 15vh;
+	}
+	100% {
+		opacity: 1;
+		filter: blur(0);
+		left: 0;
+	}
+}
+.focus-out {
+	animation-name: focus-out;
+	animation-duration: 0.5s;
+	animation-fill-mode: forwards;
+}
+@keyframes focus-out {
+	100% {
+		background: white;
+		color: white;
+	}
+}

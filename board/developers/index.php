@@ -35,30 +35,11 @@
 		<link rel="stylesheet" type="text/css" media="screen and (max-width: 500px)" href="/assets/css/index/mobile.css"/>
 		<link rel="stylesheet" type="text/css" media="screen and (min-width: 501px)" href="/assets/css/index/desktop.css"/>
 
+		<link rel="stylesheet" href="/assets/css/board/board_m.css">
+
 		<style>
 			body {
 				background: #d9e1e8;
-			}
-			#contents {
-				display: block;
-				width: 90%;
-				margin: 4rem auto;
-				position: relative;
-				animation-name: focus-in;
-				animation-duration: 1s;
-				animation-fill-mode: forwards;
-			}
-			@keyframes focus-in {
-				0% {
-					opacity: 0;
-					filter: blur(3px);
-					left: 15vh;
-				}
-				100% {
-					opacity: 1;
-					filter: blur(0);
-					left: 0;
-				}
 			}
 		</style>
 
@@ -89,5 +70,7 @@
 				</div>
 			</article>
 		</div>
+
+		<div id=back-button>< 뒤로가기</div>
 	</body>
 </html>
