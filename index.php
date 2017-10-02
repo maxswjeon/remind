@@ -100,7 +100,7 @@
 				<h1 class="section_content subtitle">제작된 게임들을 둘러보세요</h1>
 				<br>
 				<h4 class="section_details">
-					Project REMIND의 팀원들이 만들어낸 멋진 게임들을 구경해보세요.
+					Project REMIND의 팀원들이 만들어낸 멋진 웹 게임들을 구경해보세요.
 					웹 게임은 별도의 설치없이 바로 즐길 수 있다는 큰 장점을 지니고 있습니다.
 					아, 셧다운제 적용도 안된답니다. 다행이네요.
 				</h4>

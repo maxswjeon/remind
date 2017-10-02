@@ -63,7 +63,11 @@
 
 		<div id="contents">
 			<article>
-				안녕하세요, 개발자님?
+				<h2 class="box-underline">개발자를 위한 작은 노력.</h2>
+				<div>
+					Project REMIND는 '비영리', '웹 게임 발전', '개발자 지원'이라는 세가지 키워드를 중심으로 활동합니다.
+
+				</div>
 			</article>
 		</div>
 

@@ -1,9 +1,19 @@
-nav, article {
+nav{
 	text-align: center;
+}
+article {
+	text-align: left;
+}
+h1, h2, h3, h4, h5, h6 {
+	text-align: center;
+}
+hr {
+	border: none;
+	border-top: 1px solid black;
+	margin: 1rem auto;
 }
 #contents {
 	display: block;
-	margin-bottom: 0 !important;
 	position: relative;
 	word-wrap: break-word;
 	word-break: break-all;
@@ -14,6 +24,7 @@ nav, article {
 @media screen and (max-width: 500px) {
 	/*mobile*/
 	#contents {
+		font-size: 0.9rem;
 		width: 85%;
 		margin: 4rem auto;
 	}
@@ -68,14 +79,18 @@ body.focus-out {
 	padding: 0.7rem;
 	border-radius: 10px;
 }
+.box-underline {
+	padding-bottom: 0.3rem;
+	border-bottom: solid black 1px;
+	margin-bottom: 0.3rem
+}
 .post {
 	max-width: 95%;
 	background: white;
-	font-size: 0.75rem;
 	margin: 1rem auto;
-	border-radius: 7.5px;
-	padding: 0.5rem;
-	box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	border-radius: 3px;
+	padding: 1rem;
+	box-shadow: 0 0.25rem 0.5rem 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .StalinistOne {
 	font-family: 'StalinistOne', 'Stalinist One', cursive !important;

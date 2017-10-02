@@ -20,6 +20,7 @@
 		<link rel="stylesheet" type="text/css" href="/assets/fonts/Stalinist_One.css"/>
 
 		<link rel="stylesheet" type="text/css" href="/assets/css/lib/jquery.fullpage.min.css" />
+		<link rel="stylesheet" type="text/css" href="/assets/css/lib/iframe.css" />
 
 		<script type="text/javascript" src="/assets/js/lib/jquery.min.js"></script>
 		<script type="text/javascript" src="/assets/js/reset.js" defer></script>
@@ -63,11 +64,22 @@
 
 		<div id="contents">
 			<nav>
-				BW tiles
+				<span>
+					<h1 class="StalinistOne">BW tiles</h1>
+					<div class="videowrapper">
+						<iframe width="560" height="315" src="https://www.youtube.com/embed/dTk_rNxfwtc" frameborder="0" allowfullscreen></iframe>
+					</div>
+					<div class="post" style="text-align:left;margin-top:0.5rem;">
+						BWtiles는 흑백의 타일들을 조작하여 어떠한 무늬를 만들어 내는 게임입니다.
+						타일들은 특정한 규칙으로 클릭에 반응하며 이를 이용하여 목표를 달성해냅니다.
+						간단한 규칙이지만, 많은 응용력이 요구되는 게임입니다.
+						<div style="text-align:center;margin-top:1rem">
+							<a href="bwtiles" class="button" style="width:75%">게임 시작 ></a>
+						</div>
+					</div>
+					<hr>
+				</span>
 			</nav>
-			<article>
-
-			</article>
 		</div>
 
 		<div id=back-button onclick="back(2)">< 뒤로가기</div>
