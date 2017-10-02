@@ -1,0 +1,241 @@
+@import url(//fonts.googleapis.com/earlyaccess/nanumgothic.css);
+@import url(//fonts.googleapis.com/css?family=Stalinist+One);
+html {
+ font-family: 'Nanum Gothic', sans-serif;
+}
+.Stalinist.One{
+  font-family: 'Stalinist One', cursive;
+}
+body {
+  background: #F3F3F3;
+  height: 100%;
+  margin-bottom: 1rem;
+  margin: 0;
+}
+nav {
+  margin-top: 5rem;
+  padding-bottom: 1rem;
+  opacity: 0;
+}
+article {
+  opacity: 0;
+  margin-top: 5rem;
+}
+.onload {
+  animation-name: focus_in;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+}
+.outload{
+  animation-name: focus_out;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+@keyframes focus_in {
+  0% {
+    filter: blur(5px);
+  }
+  100% {
+    filter: blur(0);
+    opacity: 1;
+    margin: 0 auto;
+  }
+}
+@keyframes focus_out {
+  100% {
+    filter: blur(5px);
+  }
+}
+div.no_supprot {
+  font-size: 0;
+  margin: 0;
+  padding: 0;
+}
+@media only screen and (max-width: 330px) {
+  h1.title {
+    font-size: 2rem;
+  }
+  h1 div.second_tile {
+    font-size: 1rem;
+  }
+}
+@media only screen and (min-width: 330px) and (max-width: 766px) {
+  div.polaroid {
+    font-size: 0 !important;
+    width: 0 !important;
+    height: 0 !important;
+  }
+  .ui.container {
+    width: auto;
+    margin-left: 1em;
+    margin-right: 1em;
+  }
+  div.no_supprot {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  nav {
+    width: 659.625px !important;
+    margin: 0.7rem auto;
+  }
+  .ui.container {
+    width: 650px;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  div.container h2 {
+    font-size: 1.3rem !important;
+  }
+  div.container {
+    font-size: 66% !important;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  nav {
+    width: 821.625px !important;
+    margin: 0.7rem auto;
+  }
+  .ui.container {
+    width: 780px;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  div.container h2 {
+    font-size: 1.5rem !important;
+  }
+  div.container {
+    font-size: 75% !important;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  nav {
+    width: 1000px !important;
+    margin: 0.7rem auto;
+  }
+  .ui.container {
+    width: 970px;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  div.container h2 {
+    font-size: 2rem !important;
+  }
+}
+
+.center {text-align: center;}
+.left {text-align: left;}
+.right {text-align: right;}
+.hide {display: none;}
+.vis {display: inherit;}
+h1.title {
+  margin: 0 0 1.24rem 0;
+  padding: 0.6rem 0 0.6rem 0;
+  font-family: 'Stalinist One', cursive;
+  font-size: 3rem;
+  text-align: center;
+  color: white;
+  background: #353535;
+  line-height: 1;
+  box-shadow: 0 0 7rem 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+h1 div.second_tile {
+  font-size: 1.5rem;
+  text-shadow: none;
+}
+.button {
+  box-shadow: 0 0.5rem 0.5rem 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background: #1266FF;
+  width: 12rem;
+  margin: 1rem auto;
+  margin-top: 0;
+  padding: 0.3rem 1rem 0.3rem 1rem;
+  color: white;
+  border-radius: 0.7rem;
+}
+.button:hover {
+  background: #0042ED;
+}
+#info {
+  text-align: center;
+  border-left: 2rem solid red;
+  background-color: lightgrey;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  color: black;
+  margin-top: 0.9rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+div.polaroid {
+  display: inline-block;
+  width: 30%;
+  margin: 0 0.3rem 0 0.3rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+}
+img {
+  width: 100%;
+  height: auto;
+}
+iframe {
+  margin: auto !important;
+  text-align: center !important;
+}
+div.container {
+  padding: 10px;
+}
+div.container h2 {
+  margin: 0;
+}
+div.text_post {
+  box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 0.5rem;
+  padding: 1rem 2rem 2rem 2rem;
+  margin: 2rem 0 2rem 0;
+}
+div.polaroid:hover {
+  background: #DADADA;
+}
+div.polaroid:active {
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.text {
+  word-wrap: break-word;
+  word-break: break-all;
+}
+#loading {display: none;}
+#back {
+  background: #888888;
+  opacity: 0.9;
+  position: fixed;
+  bottom: 1rem;
+  left: 1rem;
+  padding: 1rem;
+  border-radius: 9rem;
+}
+.alert {
+  border-radius: 0.5rem;
+  background: white;
+  width: 95%;
+  box-shadow: 0 0.05rem 0.05rem 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: left;
+  padding: 0.5rem 0 0.5rem 0;
+}
+a {color: skyblue; text-decoration: underline;}
+a:hover {color: inherit;;}
+footer {
+  font-size: 2% !important;
+  color: #3F3F3F;
+  border-top: 2px solid #3F3F3F;
+  margin-top: 0.5rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+  padding-top: 0.5rem;
+  display: inherit;
+}
+.blur {
+  filter: blur(5px);
+}
