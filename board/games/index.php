@@ -46,6 +46,16 @@
 			}
 		</style>
 
+		<script>
+			function bwtiles() {
+				$('#contents').addClass('focus-out');
+				$('#back-button').addClass('focus-out');
+				$('body').addClass('focus-out-black');
+				setTimeout(function() {
+					location.href='bwtiles';
+				}, 350);
+			}
+		</script>
 	</head>
 	<body>
 		<header>
@@ -70,11 +80,21 @@
 						<iframe width="560" height="315" src="https://www.youtube.com/embed/dTk_rNxfwtc" frameborder="0" allowfullscreen></iframe>
 					</div>
 					<div class="post" style="text-align:left;margin-top:0.5rem;">
-						BWtiles는 흑백의 타일들을 조작하여 어떠한 무늬를 만들어 내는 게임입니다.
+						BWtiles는 흑백의 타일들을 조작하여 화면을 까맣게, 하얗게 만드는 게임입니다.
 						타일들은 특정한 규칙으로 클릭에 반응하며 이를 이용하여 목표를 달성해냅니다.
 						간단한 규칙이지만, 많은 응용력이 요구되는 게임입니다.
 						<div style="text-align:center;margin-top:1rem">
-							<a href="bwtiles" class="button" style="width:75%">게임 시작 ></a>
+							<div onclick="bwtiles()" class="button" style="width:75%">게임 시작 ></div>
+						</div>
+					</div>
+					<hr>
+				</span>
+				<span>
+					<h1 class="StalinistOne">New game</h1>
+					<div class="post" style="text-align:left;margin-top:0.5rem;">
+						구상단계입니다...
+						<div style="text-align:center;margin-top:1rem">
+							<div onclick="back(4)" class="button" style="width:75%;">프로젝트 참여</div>
 						</div>
 					</div>
 					<hr>

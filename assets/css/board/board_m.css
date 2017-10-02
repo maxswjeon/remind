@@ -14,6 +14,9 @@ hr {
 }
 #contents {
 	display: block;
+	font-size: 0.9rem;
+	max-width: 85% !important;
+	margin: 4rem auto;
 	position: relative;
 	word-wrap: break-word;
 	word-break: break-all;
@@ -21,20 +24,9 @@ hr {
 	animation-duration: 1s;
 	animation-fill-mode: forwards;
 }
-@media screen and (max-width: 500px) {
-	/*mobile*/
+@media screen and (min-width: 750px) {
 	#contents {
-		font-size: 0.9rem;
-		width: 85%;
-		margin: 4rem auto;
-	}
-}
-@media screen and (min-width: 501px) {
-	/*Desktop*/
-	#contents {
-		width: 550px;
-		margin: 4rem auto;
-		/*수정예정입니다.*/
+		max-width: 700px !important;
 	}
 }
 @keyframes focus-in {
@@ -68,6 +60,16 @@ body.focus-out {
 @keyframes body-focus-out {
 	100% {
 		background: white;
+	}
+}
+body.focus-out-black {
+	animation-name: body-focus-out-black !important;
+	animation-duration: 0.2s !important;
+	animation-fill-mode: forwards !important;
+}
+@keyframes body-focus-out-black {
+	100% {
+		background: black;
 	}
 }
 #back-button {

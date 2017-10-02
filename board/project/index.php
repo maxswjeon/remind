@@ -20,6 +20,7 @@
 		<link rel="stylesheet" type="text/css" href="/assets/fonts/Stalinist_One.css"/>
 
 		<link rel="stylesheet" type="text/css" href="/assets/css/lib/jquery.fullpage.min.css" />
+		<link rel="stylesheet" type="text/css" href="/assets/css/lib/iframe.css" />
 
 		<script type="text/javascript" src="/assets/js/lib/jquery.min.js"></script>
 		<script type="text/javascript" src="/assets/js/reset.js" defer></script>
