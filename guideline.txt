@@ -1,0 +1,55 @@
+공통 reset (head에 작성)
+<link rel="stylesheet" type="text/css" href="/assets/css/global/reset.css"/>
+<script type="text/javascript" src="/assets/js/lib/jquery.min.js"></script>
+<script type="text/javascript" src="/assets/js/reset.js" defer></script>
+
+Header(고정)
+(head)
+<link rel="stylesheet" type="text/css" href="/assets/css/global/header/header.css"/>
+<link rel="stylesheet" type="text/css" media="screen and (max-width: 500px)" href="/assets/css/global/header/mobile.css"/>
+<link rel="stylesheet" type="text/css" media="screen and (min-width: 501px)" href="/assets/css/global/header/desktop.css"/>
+
+(body)
+<div id="header">
+	<div id="box_left">
+		<a href="/">
+			<h1 id="title">REMIND</h1>
+		</a>
+	</div>
+	<div id="box_right">
+		<ul id="menu_member">
+			<li class="item item_member"><a href="/member/signup" class="link_member">Sign Up</a></li>
+			<li class="item item_member"><a href="/member/login" class="link_member">Login</a></li>
+		</ul>
+	</div>
+</div>
+
+
+두번째 section 이후 PHP 예시코드
+<div class="section">
+	<h1 class="section_content subtitle">GAME - <?php//echo{$game_name[i]}; ?></h1>
+	<br>
+	<h4 class="section_details">
+		<?php //echo{$game_details[i]}; ?>
+	</h4>
+	<br>
+	<a href="javscript:goto(<?php //echo "/board/{$game_id[i]}"; ?>)" class="button">자세히 알아보기</a>
+</div>
+
+
+head의 script중 $('#fullpage').fullpage({ 이후 PHP 예시코드
+sectionsColor: ['#1bbc9b', '#4BBFC3', <?php //foreach ()$game_background as $color) {echo "\'.{$color}\'";}" ?> '#7BAABE'],
+
+
+Horizental Scroll시 모바일 지원
+#fullpage < div 아래
+<div id="handle_left"></div>
+<div id="handle_right"></div>
+
+script fullpage function 아래
+$("#fullpage").on("click", "#handle_left",function(){
+	$.fn.fullpage.moveSlideLeft();
+});
+$("#fullpage").on("click", "#handle_right",function(){
+	$.fn.fullpage.moveSlideRight();
+});

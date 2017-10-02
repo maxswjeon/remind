@@ -1,0 +1,35 @@
+.subtitle{
+	font-weight: 800;
+	font-size: 1.3em;
+}
+.section_details{
+	margin:auto;
+	width: 85%;
+	line-height:1.8em;
+	font-weight:400;
+	font-size: 0.8em;
+	word-wrap: break-word;
+	word-break: keep-all;
+}
+#handle_left{
+	width:40%;
+	height: calc(100vh - 50px);
+	left: 0px;
+	bottom: 0px;
+	position: fixed;
+	z-index: 1000;
+	cursor: pointer;
+}
+#handle_right{
+	width:40%;
+	height: calc(100vh - 50px);
+	right: 0px;
+	bottom: 0px;
+	position: fixed;
+	z-index: 1000;
+	cursor: pointer;
+}
+.button{
+	font-size: 1em;
+	padding: 10px;
+}
