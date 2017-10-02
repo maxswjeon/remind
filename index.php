@@ -25,6 +25,8 @@
 		<script type="text/javascript" src="/assets/js/reset.js" defer></script>
 		<script type="text/javascript" src="/assets/js/lib/jquery.fullpage.min.js"></script>
 
+		<script type="text/javascript" src="/assets/js/index/index.js"></script>
+
 		<link rel="stylesheet" type="text/css" href="/assets/css/global/reset.css"/>
 		<link rel="stylesheet" type="text/css" href="/assets/css/global/header/header.css"/>
 		<link rel="stylesheet" type="text/css" media="screen and (max-width: 500px)" href="/assets/css/global/header/mobile.css"/>
@@ -32,44 +34,12 @@
 
 		<link rel="stylesheet" type="text/css" href="/assets/css/lib/button.css"/>
 		<link rel="stylesheet" type="text/css" href="/assets/css/index/index.css"/>
+		<link rel="stylesheet" type="text/css" href="/assets/css/index/animation.css"/>
 		<link rel="stylesheet" type="text/css" media="screen and (max-width: 500px)" href="/assets/css/index/mobile.css"/>
 		<link rel="stylesheet" type="text/css" media="screen and (min-width: 501px)" href="/assets/css/index/desktop.css"/>
 
-		<style>
-			#fullpage {
-				animation-name: focus-in;
-				animation-duration: 1.4s;
-				animation-fill-mode: forwards;
-			}
-			@keyframes focus-in {
-				0% {
-					margin-top: 200vh;
-				}
-				100% {
-					margin: normal;
-				}
-			}
-			#fullpage.focus-out {
-				animation-name: focus-out;
-				animation-duration: 0.4s;
-				animation-fill-mode: forwards;
-				animation-timing-function: cubic-bezier(0.1, 0.56, 0.8, 0.93);
-			}
-			@keyframes focus-out {
-				0% {
-					right: 0%;
-					opacity: 1;
-					filter: blur(0);
-				}
-				100% {
-					right: 15vw;
-					opacity: 0;
-					filter: blur(2px);
-				}
-			}
-		</style>
-
 		<script type="text/javascript">
+
 			var colors = ['#282c37', '#9baec8', '#d9e1e8', '#6693B2'];
 
 			$(document).ready(function() {
@@ -84,13 +54,14 @@
 				});
 			});
 
-			function link(str, colors_num) {
-				$('#fullpage').addClass("focus-out");
-				$('body').css('background', colors[colors_num]);
+			var page = getParameterByName('page');
+			page *= 1;
+			if(page !== null){
 				setTimeout(function(){
-					location.href = str;
-				}, 450);
+					$.fn.fullpage.moveTo(page);
+				}, 1500);
 			}
+
 		</script>
 
 	</head>
@@ -103,8 +74,8 @@
 			</div>
 			<div id="box_right">
 				<ul id="menu_member">
-					<li class="item item_member"><a href="/member/signup" class="link_member">회원가입</a></li>
-					<li class="item item_member"><a href="/member/login" class="link_member">로그인</a></li>
+					<li class="item_member"><a href="/member/signup" class="link_member">회원가입</a></li>
+					<li class="item_member"><a href="/member/login" class="link_member">로그인</a></li>
 				</ul>
 			</div>
 		</header>
@@ -122,6 +93,7 @@
 					저는 어릴 적 즐겼던 플래시 게임을 떠올리며 웹 게임을 만들기 시작했습니다.
 					웹에서의 게임 개발은 방해물이 아닌 도전과제임을 기억해야 합니다.
 					시작은 간단한 퍼즐게임에 불과하지만, 계속해서 발전해나가는 모습을 보일 것입니다.
+					<img src="/assets/img/index/dir_develop.png" alt="아래로" width="20%" style="display:block;margin:2.5rem auto;margin-bottom:0">
 				</h4>
 			</div>
 			<div class="section">

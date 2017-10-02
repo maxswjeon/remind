@@ -47,3 +47,15 @@ body.focus-out {
 		background: white;
 	}
 }
+#back-button {
+	font-size: 0.9rem;
+	position: fixed;
+	bottom: 1rem;
+	left: 1rem;
+	background: rgba(198,198,198,0.8);
+	padding: 0.7rem;
+	border-radius: 10px;
+}
+.center {
+	text-align: center;
+}

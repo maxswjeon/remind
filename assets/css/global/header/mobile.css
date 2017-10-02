@@ -9,23 +9,9 @@
 #menu_main{
 	display: none;
 }
-#menu_member{
-	float: right;
-}
 #title{
 	font-size: 1em;
 }
-.item {
-	float: left;
-	vertical-align: middle;
-	text-align: center;
-	line-height: 50px;
+.item_member{
 	font-size: 0.9em;
-}
-.link_member{
-	display: block;
-	width: 75px;
-	height: 50px;
-	font-family: 'NanumGothic', 'Nanum Gothic' !important;;
-	font-weight:400;
 }

@@ -1,26 +1,11 @@
-#menu_main{
-	display: inline-block;
+#box_left{
+	width: 250px;
+	float: left;
 }
-#menu_member{
+#box_right{
+	width: 250px;
 	float: right;
 }
-.item {
-	float: left;
-	vertical-align: middle;
-	text-align: center;
-	line-height: 50px;
-}
-.link_main{
-	display: block;
-	width: 150px;
-	height: 50px;
-	font-family: 'NanumGothic', 'Nanum Gothic' !important;;
-	font-weight:400;
-}
-.link_member{
-	display: block;
-	width: 75px;
-	height: 50px;
-	font-family: 'NanumGothic', 'Nanum Gothic' !important;;
-	font-weight:400;
+#menu_main{
+	display: inline-block;
 }

@@ -14,8 +14,15 @@ body{
 	margin:auto;
 	text-align: center;
 	word-wrap: break-word;
-	word-break: break-all;
+	word-break: keep-all;
 }
+.section_details{
+	margin:auto;
+	word-wrap: break-word;
+	word-break: keep-all;
+	font-family: 'NanumGothic', 'Nanum Gothic' !important;;
+}
+
 .subtitle{
 	font-weight: 800;
 }

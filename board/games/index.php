@@ -25,6 +25,8 @@
 		<script type="text/javascript" src="/assets/js/reset.js" defer></script>
 		<script type="text/javascript" src="/assets/js/lib/jquery.fullpage.min.js"></script>
 
+		<script type="text/javascript" src="/assets/js/board/back.js" defer></script>
+
 		<link rel="stylesheet" type="text/css" href="/assets/css/global/reset.css"/>
 		<link rel="stylesheet" type="text/css" href="/assets/css/global/header/header.css"/>
 		<link rel="stylesheet" type="text/css" media="screen and (max-width: 500px)" href="/assets/css/global/header/mobile.css"/>

@@ -15,7 +15,6 @@
 	border: 1px solid #DDD;
 	padding:30px;
 	border-radius: 10px;
-
 }
 #login_title{
 	margin: 0 0 10px 0;
@@ -35,10 +34,16 @@
 	padding:10px;
 	box-sizing: border-box;
 	border-radius: 0px;
+	margin: 10px 0 0 0;
 }
 .link_login{
 	padding: 10px 5px 0px 5px;
 	display: inline-block;
 	font-family: 'NanumGothic', 'Nanum Gothic' !important;;
 	font-weight:400;
+}
+.label{
+	font-weight: 700;
+    padding: 10px 0 5px 0;
+    display: inline-block;
 }

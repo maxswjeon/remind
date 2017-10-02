@@ -1,0 +1,31 @@
+#fullpage {
+	animation-name: focus-in;
+	animation-duration: 1.4s;
+	animation-fill-mode: forwards;
+}
+@keyframes focus-in {
+	0% {
+		margin-top: 200vh;
+	}
+	100% {
+		margin: normal;
+	}
+}
+#fullpage.focus-out {
+	animation-name: focus-out;
+	animation-duration: 0.4s;
+	animation-fill-mode: forwards;
+	animation-timing-function: cubic-bezier(0.1, 0.56, 0.8, 0.93);
+}
+@keyframes focus-out {
+	0% {
+		right: 0%;
+		opacity: 1;
+		filter: blur(0);
+	}
+	100% {
+		right: 15vw;
+		opacity: 0;
+		filter: blur(2px);
+	}
+}

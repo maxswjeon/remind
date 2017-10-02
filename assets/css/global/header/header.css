@@ -19,11 +19,19 @@ header{
 	vertical-align: middle;
 	line-height: 50px;
 }
-#box_left{
-	width: 250px;
-	float: left;
-}
-#box_right{
-	width: 250px;
+#menu_member{
 	float: right;
+}
+.item_member{
+	float: left;
+	vertical-align: middle;
+	text-align: center;
+	line-height: 50px;
+}
+.link_member{
+	display: block;
+	width: 75px;
+	height: 50px;
+	font-family: 'NanumGothic', 'Nanum Gothic' !important;;
+	font-weight:400;
 }

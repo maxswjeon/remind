@@ -44,8 +44,8 @@
 			</div>
 			<div id="box_right">
 				<ul id="menu_member">
-					<li class="item item_member"><a href="/member/signup" class="link_member">회원가입</a></li>
-					<li class="item item_member"><a href="/member/login" class="link_member">로그인</a></li>
+					<li class="item_member"><a href="/member/signup" class="link_member">회원가입</a></li>
+					<li class="item_member"><a href="/member/login" class="link_member">로그인</a></li>
 				</ul>
 			</div>
 		</header>
@@ -54,8 +54,10 @@
 				<div id="login_form">
 					<h2 id="login_title">로그인</h2>
 					<form name="form_login" action="/api/login.php" method="post">
-						<input class="input" type="text" placeholder="ID" name="userid"/>
-						<input class="input" type="password" placeholder="PW" name="userpw"/>
+						<span class="label">아이디</span><br>
+						<input class="input" type="text" placeholder="아이디" name="userid"/>
+						<span class="label">비밀번호</span><br>
+						<input class="input" type="password" placeholder="비밀번호" name="userpw"/>
 						<a class="button submit" href="javascript:submit();" name="submit" value="Login">로그인</a>
 					</form>
 					<a href="/member/signup" class="link_login">회원가입</a>
