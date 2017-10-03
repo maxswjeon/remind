@@ -58,7 +58,7 @@
 
     <div id="contents">
       <nav>
-        <h2>Black & White tiles</h2>
+        <h1 class="StalinistOne">BW tiles</h1>
       </nav>
   </div>
   </body>

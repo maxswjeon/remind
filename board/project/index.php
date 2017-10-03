@@ -64,7 +64,8 @@
 
 		<div id="contents">
 			<article class="post">
-				<h2 class="StalinistOne box-underline">Project REMIND</h2>
+				<h2 class="StalinistOne">Project REMIND</h2>
+				<hr>
 				<div>
 					저는 어릴 적 웹에 있는 플래시 게임들을 즐겨 했습니다.
 					혼자는 물론, 친구들과 집에 모이면 하나의 컴퓨터로 2인용 게임을 즐기기도 하였습니다.
