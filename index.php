@@ -64,6 +64,12 @@
 
 		</script>
 
+		<style media="screen">
+			#fullpage {
+				will-change: transform, opacity, right;
+			}
+		</style>
+
 	</head>
 	<body>
 		<header>

@@ -23,6 +23,7 @@ hr {
 	animation-name: focus-in;
 	animation-duration: 1s;
 	animation-fill-mode: forwards;
+	will-change: transform, opacity;
 }
 @media screen and (min-width: 764px) {
 	#contents {
